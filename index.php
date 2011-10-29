@@ -19,19 +19,6 @@
                         <input type="text" class="searchbox" name="s" placeholder="Search for user with email address" />
                     </form>
                 </div>
-                <!--                    <div class="logged_user">
-                                        Philipe Sheffield <img class="header_settings" src="css/assets/16x16_header_settings.png">
-                                    </div>
-                                    <div class="user_settings_dd">
-                
-                                        <ul>
-                                            <li class="">Profile</li>
-                                            <li class="">Account</li>
-                                            <li class="">Help</li>
-                                            <li class="">Logout</li>
-                                        </ul>
-                                    </div> -->
-
                 <ul id="logged_user">
                     <li><span>Nikola Džona Radović</span>
                     <dd><a href="#">Profile</a></dd>
@@ -59,7 +46,9 @@
             </div>
             <div class="span-19">
                 <div id="page-title">www.honestdata.com</div>
+
                 <div class="horisontal-line">&nbsp;</div>
+
                 <div id="pie-holder">
                     <div class="pie1">&nbsp;</div>
                     <div class="pie-description">
@@ -84,56 +73,199 @@
                         </ul>
                     </div>
                 </div>
+
                 <div class="horisontal-line">&nbsp;</div>
+
                 <div id="chart-holder">
                     <div id="chart-header">
                         <div class="chart-control">
                             <span class="title click-icon-off bg-pos-2">Leads vs. Visitors</span><div class="icon arrow mrgn-icon-4"></div>
-
-                            <div class="input-box-wrapper">
-                                <form action="#">
-                                    <input type="text" class="inputbox" placeholder="Sep 15, 2011 - Oct 15 2011" />
-                                </form>
+                            <div class="input-box-wrapper mrgn-textbox-1">
+                                <input type="text" class="inputbox wdth-204" placeholder="Sep 15, 2011 - Oct 15 2011" />
                             </div>
-                            <a class="button" href="#"><span>Sort by Date<img class="mrgn-lft-5" src="css/assets/arrow_down_off.png"></span></a>
-                            <div class="dd-button-holder">
-                                <a class="button" href="#"><span>Tamo neko dugme<img class="mrgn-lft-5" src="css/assets/arrow_down_off.png"></span></a>
-                                <ul class="dd-button">
 
-                                    <li><a href="#">Pricing</a></li>
-                                    <li><a href="#" class="sort-check bg-pos-5">datasheet</a></li>
-                                    <li><a href="#">tour</a></li>
-                                    <li><a href="#">Credit Card</a></li>
-                                    <li><a href="#">offer12few</a></li>
+                            <div class="dd-button-holder mrgn-button-1">
+                                <a class="button" href="#"><span>Sort by Date<img class="mrgn-lft-5" src="css/assets/arrow_down_off.png"></span></a>
+                                <ul class="dd-button" style="display: none;">
+
+                                    <li><a href="#" class="sort-check bg-pos-5">Date</a></li>
+                                    <li><a href="#">Click Tag</a></li>
+                                    <li><a href="#"># Clicks</a></li>
+                                    <li><a href="#">Rank</a></li>
                                 </ul>
-                                <div class="dd-bottom mrgn-bottom-2"><div class="dd-bottom-left">&nbsp;</div><div class="dd-bottom-right">&nbsp;</div></div>
+                                <div style="display: none;" class="dd-bottom mrgn-bottom-2"><div class="dd-bottom-left">&nbsp;</div><div class="dd-bottom-right">&nbsp;</div></div>
                             </div>
-                            
-                            <a class="button" href="#"><span>Sort by Date<img class="mrgn-lft-5" src="css/assets/arrow_down_off.png"></span></a>
+
                         </div>
                         <div class="horisontal-line">&nbsp;</div>
                         <div class="chart-description">
-                            &nbsp;
+                            <span>Leads are visitors that submitted their email address on your website</span>
+                            <div class="legend-holder">
+                                <div class="series-blue"></div><span>Visitors</span>
+                                <div class="series-orange"></div><span>Leads</span>
+                            </div>
                         </div>
                     </div>
+                    <div class="chart-img"></div>
                 </div>
 
+                <div class="horisontal-line">&nbsp;</div>
+
+                <div id="leads-holder">
+                    <div id="leads-header">
+                        <div class="leads-control">
+                            <span class="title leads-email-icon-off bg-pos-2">Leads</span><div class="icon arrow mrgn-icon-4"></div>
+                            <div class="input-box-wrapper mrgn-textbox-1">
+                                <input type="text" class="inputbox wdth-204" placeholder="Sep 15, 2011 - Oct 15 2011" />
+                            </div>
+
+                            <div class="dd-button-holder mrgn-button-1">
+                                <a class="button" href="#"><span>Sort by Date<img class="mrgn-lft-5" src="css/assets/arrow_down_off.png"></span></a>
+                                <ul class="dd-button" style="display: none;">
+
+                                    <li><a href="#" class="sort-check bg-pos-5">Date</a></li>
+                                    <li><a href="#">Click Tag</a></li>
+                                    <li><a href="#"># Clicks</a></li>
+                                    <li><a href="#">Rank</a></li>
+                                </ul>
+                                <div style="display: none;" class="dd-bottom mrgn-bottom-2"><div class="dd-bottom-left">&nbsp;</div><div class="dd-bottom-right">&nbsp;</div></div>
+                            </div>
+
+                        </div>
+                        <div class="horisontal-line">&nbsp;</div>
+                        <div class="leads-description">
+                            <div class="relative-holder">
+
+
+                                <span class="lft-20">Score</span>
+                                <span class="lft-100">Leads in Bold are ones that you have not viewed yet</span>
+                                <span class="lft-530">Clicks</span>
+                                <span class="lft-590">Date</span>
+                            </div>
+                        </div>
+                    </div>
+                    <table id="leads-content" cellpadding="0" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="left-corner"></th>
+                                <th scope="col" colspan="7" class="up-frame"></th>
+                                <th scope="col" class="right-corner"></th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <td scope="col" class="left-corner"></td>
+                                <td scope="col" colspan="7" class="bottom-frame"></td>
+                                <td scope="col" class="right-corner"></td>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                            <tr class="row bold">
+                                <td class="first-col"></td>
+                                <td class="col-separator"></td>
+                                <td class="score lead-purple bg-pos-6">67812</td>
+                                <td class="leads-col-1">Philip Sheffield</td>
+                                <td class="leads-col-2">psheffie@gmail.com</td>
+                                <td class="clicks">4</td>
+                                <td class="date">10/01/2011</td>
+                                <td class="col-separator"></td>
+                                <td class="last-col"></td>
+                            </tr>
+                            <tr class="row bold">
+                                <td class="first-col"></td>
+                                <td class="col-separator"></td>
+                                <td class="score lead-blue bg-pos-6">4521</td>
+                                <td class="leads-col-1">Some User</td>
+                                <td class="leads-col-2">test@domain.com</td>
+                                <td class="clicks">4</td>
+                                <td class="date">10/01/2011</td>
+                                <td class="col-separator"></td>
+                                <td class="last-col"></td>
+                            </tr>
+                            <tr class="row">
+                                <td class="first-col"></td>
+                                <td class="col-separator"></td>
+                                <td class="score lead-yellow bg-pos-6">2133</td>
+                                <td class="leads-col-1">Soham Mehta</td>
+                                <td class="leads-col-2">soham.mehta@gmail.com</td>
+                                <td class="clicks">6674</td>
+                                <td class="date">10/01/2011</td>
+                                <td class="col-separator"></td>
+                                <td class="last-col"></td>
+                            </tr>
+                            <tr class="row">
+                                <td class="first-col"></td>
+                                <td class="col-separator"></td>
+                                <td class="score lead-green bg-pos-6">3322</td>
+                                <td class="leads-col-1">Philip Sheffield</td>
+                                <td class="leads-col-2">psheffie@gmail.com</td>
+                                <td class="clicks">1254</td>
+                                <td class="date">10/01/2011</td>
+                                <td class="col-separator"></td>
+                                <td class="last-col"></td>
+                            </tr>
+                            <tr class="row">
+                                <td class="first-col"></td>
+                                <td class="col-separator"></td>
+                                <td class="score lead-blue bg-pos-6">32445</td>
+                                <td class="leads-col-1">Philip Sheffield</td>
+                                <td class="leads-col-2">psheffie@gmail.com</td>
+                                <td class="clicks">421</td>
+                                <td class="date">10/01/2011</td>
+                                <td class="col-separator"></td>
+                                <td class="last-col"></td>
+                            </tr>
+                            <tr class="row">
+                                <td class="first-col"></td>
+                                <td class="col-separator"></td>
+                                <td class="score lead-red bg-pos-6">87</td>
+                                <td class="leads-col-1">Soham Mehta</td>
+                                <td class="leads-col-2">soham.mehta@gmail.com</td>
+                                <td class="clicks">49</td>
+                                <td class="date">10/01/2011</td>
+                                <td class="col-separator"></td>
+                                <td class="last-col"></td>
+                            </tr>
+                            <tr class="row bold">
+                                <td class="first-col"></td>
+                                <td class="col-separator"></td>
+                                <td class="score lead-purple bg-pos-6">85</td>
+                                <td class="leads-col-1">Unidentified</td>
+                                <td class="leads-col-2">unknown</td>
+                                <td class="clicks">87</td>
+                                <td class="date">10/01/2011</td>
+                                <td class="col-separator"></td>
+                                <td class="last-col"></td>
+                            </tr>
+                            <tr class="row">
+                                <td class="first-col"></td>
+                                <td class="col-separator"></td>
+                                <td class="score lead-blue bg-pos-6">12</td>
+                                <td class="leads-col-1">Unidentified</td>
+                                <td class="leads-col-2">unknown</td>
+                                <td class="clicks">6</td>
+                                <td class="date">10/01/2011</td>
+                                <td class="col-separator"></td>
+                                <td class="last-col"></td>
+                            </tr>
+                            <tr class="row">
+                                <td class="first-col"></td>
+                                <td class="col-separator"></td>
+                                <td class="score lead-yellow bg-pos-6">7</td>
+                                <td class="leads-col-1">Nikola Radović</td>
+                                <td class="leads-col-2">dzona065@gmail.com</td>
+                                <td class="clicks">4</td>
+                                <td class="date">10/01/2011</td>
+                                <td class="col-separator"></td>
+                                <td class="last-col"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
             <div class="span-24">
                 The footer
             </div>
-        </div>
-        <div class="dd-button-holder">
-            <a class="button" href="#"><span>Tamo neko dugme<img class="mrgn-lft-5" src="css/assets/arrow_down_off.png"></span></a>
-            <ul class="dd-button">
-
-                <li><a href="#">Pricing</a></li>
-                <li class="tag-yellow"><a href="#">datasheet</a></li>
-                <li><a href="#">tour</a></li>
-                <li><a href="#">Credit Card</a></li>
-                <li><a href="#">offer12few</a></li>
-            </ul>
-            <div class="dd-bottom mrgn-bottom-2"><div class="dd-bottom-left">&nbsp;</div><div class="dd-bottom-right">&nbsp;</div></div>
         </div>
     </body>
 </html>
