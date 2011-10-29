@@ -419,14 +419,14 @@ ul.dd-button li a:hover{
 .bg-pos-4{background-position:right center;}
 .bg-pos-5{background-position:14px 4px;}
 
-.span-6 ul li.active div.dashboard-icon{ background-position:0px 16px;}
-.span-6 ul li.active div.leads-icon{ background-position:0px 16px;}
-.span-6 ul li.active div.ledas-email-icon{ background-position:0px 16px;}
-.span-6 ul li.active div.leads-more-icon{ background-position:0px 16px;}
-.span-6 ul li.active div.getting_started-icon{ background-position:0px 16px;}
-.span-6 ul li.active div.tag_and_rank-icon{ background-position:0px 16px;}
-.span-6 ul li.active div.invite_colleagues-icon{ background-position:0px 16px;}
-.span-6 ul li.active div.arrow{ background-position:0px 6px;}
+.span-6 ul li.active div.dashboard-icon{ background-position:0px -16px;}
+.span-6 ul li.active div.leads-icon{ background-position:0px -16px;}
+.span-6 ul li.active div.ledas-email-icon{ background-position:0px -16px;}
+.span-6 ul li.active div.leads-more-icon{ background-position:0px -16px;}
+.span-6 ul li.active div.getting_started-icon{ background-position:0px -16px;}
+.span-6 ul li.active div.tag_and_rank-icon{ background-position:0px -16px;}
+.span-6 ul li.active div.invite_colleagues-icon{ background-position:0px -16px;}
+.span-6 ul li.active div.arrow{ background-position:0px -6px;}
 .span-6 ul li.active div.num_box{ background-position:left bottom; color:#000000;}
 .span-6 ul li.active div.num_box span{ background-position:right bottom; color:#000000;}
 

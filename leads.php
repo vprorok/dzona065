@@ -45,8 +45,8 @@
 
             <div class="span-6">
                 <ul>
-                    <li class="dashboard active"><div class="dashboard-icon icon mrgn-icon-1"></div><span class="label">Dashboard</span></li>
-                    <li class="leads"><div class="arrow arrow mrgn-arrow"></div><div class="leads-icon icon mrgn-icon-2"></div><span class="label">Leads</span><div class="num_box"><span>1234</span></div></li>
+                    <li class="dashboard"><div class="dashboard-icon icon mrgn-icon-1"></div><span class="label">Dashboard</span></li>
+                    <li class="leads active"><div class="arrow arrow mrgn-arrow"></div><div class="leads-icon icon mrgn-icon-2"></div><span class="label">Leads</span><div class="num_box"><span>1234</span></div></li>
                     <li class="leads-email"><div class="leads-email-icon icon mrgn-icon-3"></div><span class="label">psheffie@gmail.com</span></li>
                     <li class="leads-email"><div class="leads-email-icon icon mrgn-icon-3"></div><span class="label">soham.mehta@gmail...</span></li>
                     <li class="leads-email"><div class="leads-email-icon icon mrgn-icon-3"></div><span class="label">dunn@magic.com</span></li>
