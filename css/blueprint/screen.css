@@ -132,14 +132,17 @@ a.button span {
     color: #747474;
 } 
 
-a.button:hover{background-position: bottom left;}
-a.button:hover span{background-position: bottom right;}
+a.button:hover, .dd-button-holder:hover a.button{background-position: bottom left;}
+a.button:hover span, .dd-button-holder:hover a.button span{background-position: bottom right;}
 a.button span:hover {background-position: bottom right;}
-a.button span.arrow {float:right;}
+a.button span.arrow, .dd-button-holder:hover a.button span.arrow {float:right;}
 ul.dd-button li a:hover a.button{background: none;}
 
 .dd-button-holder {
     float: left;
+}
+.dd-button-holder:hover  .dd-button{
+    display: block;
 }
 
 .dd-button {
@@ -147,7 +150,7 @@ ul.dd-button li a:hover a.button{background: none;}
     margin-right: 18px;
 /*    float: left;*/
     z-index: 1000;
-    display: block;
+    display: none;
 }
 
 ul.dd-button li {
