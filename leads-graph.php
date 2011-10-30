@@ -25,27 +25,27 @@
                     <dd><a href="#">Account</a></dd>
                     <dd><a href="#">Help</a></dd>
                     <dd><a href="#">Logout</a></dd>
+                    <div class="dd-bottom mrgn-bottom-1"><div class="dd-bottom-left">&nbsp;</div><div class="dd-bottom-right">&nbsp;</div></div>
                     </li>
-                    <div class="dd-bottom"><div class="dd-bottom-left">&nbsp;</div><div class="dd-bottom-right">&nbsp;</div></div>
                 </ul>
             </div>
 
             <div class="span-6">
                 <ul>
                     <a href="index.php" class="menu-item"><li class="dashboard"><div class="dashboard-icon icon mrgn-icon-1"></div><span class="label">Dashboard</span></li></a>
-                    <a href="index.php" class="menu-item"><li class="leads"><div class="arrow arrow mrgn-arrow"></div><div class="leads-icon icon mrgn-icon-2"></div><span class="label">Leads</span><div class="num_box"><span>1234</span></div></li></a>
-                    <a href="index.php" class="menu-item"><li class="leads-email"><div class="leads-email-icon icon mrgn-icon-3"></div><span class="label">psheffie@gmail.com</span></li></a>
-                    <a href="index.php" class="menu-item"><li class="leads-email"><div class="leads-email-icon icon mrgn-icon-3"></div><span class="label">soham.mehta@gmail...</span></li></a>
-                    <a href="index.php" class="menu-item"><li class="leads-email active"><div class="leads-email-icon icon mrgn-icon-3"></div><span class="label">dunn@magic.com</span></li></a>
-                    <a href="index.php" class="menu-item"><li class="leads-email"><div class="leads-email-icon icon mrgn-icon-3"></div><span class="label">nikola.radovic@gmail...</span></li></a>
-                    <a href="index.php" class="menu-item"><li class="leads-more"><div class="leads-more-icon icon mrgn-icon-3"></div><span class="label">See all recent (4)</span></li></a>
-<!--                    <a href="index.php" class="menu-item"><li class="getting_started"><div class="getting_started-icon icon mrgn-icon-1"></div><span class="label">Getting Started</span></li</a>
-                    <a href="index.php" class="menu-item"><li class="tag_and_rank"><div class="tag_and_rank-icon icon mrgn-icon-1"></div><span class="label">Tag and Rank</span></li></a>-->
-                    <li class="invite_colleagues"><div class="invite_colleagues-icon icon mrgn-icon-1"></div><span class="label">Invite Colleagues</span></li>
+                    <a href="leads.php" class="menu-item"><li class="leads"><div class="arrow arrow mrgn-arrow"></div><div class="leads-icon icon mrgn-icon-2"></div><span class="label">Leads</span><div class="num_box"><span>1234</span></div></li></a>
+                    <a href="#" class="menu-item"><li class="leads-email"><div class="leads-email-icon icon mrgn-icon-3"></div><span class="label">psheffie@gmail.com</span></li></a>
+                    <a href="#" class="menu-item"><li class="leads-email"><div class="leads-email-icon icon mrgn-icon-3"></div><span class="label">soham.mehta@gmail...</span></li></a>
+                    <a href="#" class="menu-item"><li class="leads-email"><div class="leads-email-icon icon mrgn-icon-3"></div><span class="label">dunn@magic.com</span></li></a>
+                    <a href="leads-graph.php" class="menu-item"><li class="leads-email active"><div class="leads-email-icon icon mrgn-icon-3"></div><span class="label">nikola.radovic@gmail...</span></li></a>
+                    <a href="#" class="menu-item"><li class="leads-more"><div class="leads-more-icon icon mrgn-icon-3"></div><span class="label">See all recent (4)</span></li></a>
+                    <a href="#" class="menu-item"><li class="getting_started"><div class="getting_started-icon icon mrgn-icon-1"></div><span class="label">Getting Started</span></li></a>
+                    <a href="tag-and-rank.php" class="menu-item"><li class="tag_and_rank"><div class="tag_and_rank-icon icon mrgn-icon-1"></div><span class="label">Tag and Rank</span></li></a>
+                    <a href="#" class="menu-item"><li class="invite_colleagues"><div class="invite_colleagues-icon icon mrgn-icon-1"></div><span class="label">Invite Colleagues</span></li></a>
                 </ul>
             </div>
             <div class="span-19">
-                <div id="page-title" class="bg-leads">dunn@magic.com<img src="css/assets/15x8_arrow_down.png"></div>
+                <div id="page-title" class="bg-leads">nikola.radovic@gmail.com<img src="css/assets/15x8_arrow_down.png" /></div>
 
                 <div class="horisontal-line">&nbsp;</div>
 
@@ -78,15 +78,16 @@
                             <div class="input-box-wrapper mrgn-textbox-1">
                                 <input type="text" class="inputbox wdth-204" placeholder="Sep 15, 2011 - Oct 15 2011" />
                             </div>
-                            <div class="leads-actions-holder"><a class="chart-view active" href="#">&nbsp;</a><a class="time-view" href="#">&nbsp;</a><a class="tabular-view" href="#">&nbsp;</a></div>
+                            <div class="leads-actions-holder"><a class="chart-view active" href="leads-graph.php">&nbsp;</a><a class="time-view" href="leads-timeline.php">&nbsp;</a><a class="tabular-view" href="leads-list.php">&nbsp;</a></div>
+                            
                             <div class="dd-button-list-holder mrgn-button-1">
                                 <a class="dd-button" href="#"><span class="wdth-89">Sort by Date<img class="mrgn-lft-5" src="css/assets/arrow_down_off.png"></span></a>
                                 <ul class="dd-button-list wdth-119">
                                     <li><a href="#" class="sort-check bg-pos-5">Date</a></li>
                                     <li><a href="#">Click Tag</a></li>
                                     <li><a href="#"># Clicks</a></li>
-                                    <li class="last"><a href="#">Rank</a></li>
-                                    <div class="dd-bottom"><div class="dd-bottom-left">&nbsp;</div><div class="dd-bottom-right">&nbsp;</div></div>
+                                    <li><a href="#">Rank</a></li>
+                                    <li class="dd-bottom"><div class="dd-bottom-left">&nbsp;</div><div class="dd-bottom-right">&nbsp;</div></li>
                                 </ul>
                             </div>
 
