@@ -162,8 +162,9 @@ ul.dd-button-list li a:hover a.dd-button{background: none;}
 .dd-button-list-holder {
     float: right;
     position: relative;
+    z-index:1000;
 }
-.dd-button-list-holder:hover  .dd-button-list{
+.dd-button-list-holder:hover .dd-button-list, .dd-button-list-holder:hover .dd-bottom{
     display: block;
 }
 
@@ -309,20 +310,44 @@ ul.dd-button-list li a:hover{
     opacity: 0.7;
 
 }
-
+.dd-button-list-holder ul li.dd-bottom {border:none; height:15px; background:transparent; position: relative;}
+#logged_user li.dd-bottom {border:none; height:15px; background:transparent;}
 #logged_user li {padding:15px 15px 15px 10px; margin:-15px -15px -15px -10px; position:relative; z-index:100;}
 #logged_user li span {margin:-19px -15px 0 -10px; display:block; padding:19px 41px 18px 10px; z-index:100; background: url(../assets/31x16_header_settings.png) no-repeat; background-position:right center;}
 #logged_user li a, #logged_user li a:visited {display:block;}
 #logged_user li a:hover {background:#fdfdfd; border-left:1px solid #fdfdfd; border-right:1px solid #fdfdfd;}
 #logged_user li:hover dd, #logged_user li a:hover dd {display:block;}
+/*#logged_user li:hover .dd-bottom, #logged_user li a:hover .dd-bottom {display:block;}*/
 
-#logged_user dd {display:none; margin:0px -15px 0px -9px; border-left: 1px solid #989898; border-right: 1px solid #989898;}
+#logged_user dd {position:relative; display:none; background-color:#fdfdfd; margin:0px -15px 0px -9px; border-left: 1px solid #989898; border-right: 1px solid #989898;}
 #logged_user dd a, #logged_user dd a:visited {padding:6px 0px 0px 10px; border-left:1px solid #fdfdfd; border-right:1px solid #fdfdfd; font-weight: bold; border-top:1px solid #fdfdfd; background:#fdfdfd; color:#747474; height:24px; text-decoration:none;}
 #logged_user dd a:hover {background: #e7e7e7; color:#6a6a6a; border-top:1px solid #f4f4f4; border-left:1px solid #fdfdfd; border-right:1px solid #fdfdfd;}
 
-.dd-bottom-left{float:left; width:15px; height:15px; background: url(../assets/dd_bottom_left.png) no-repeat; background-position: left bottom;}
-.dd-bottom-right{overflow: hidden; height:15px; background: url(../assets/dd_bottom_right.png) no-repeat; background-position: right bottom;}
-.dd-bottom{height:15px;}
+.dd-bottom-left{
+    float:left; 
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15px;
+    width:15px; 
+    height:15px; 
+    background: url(../assets/dd_bottom_left.png) no-repeat; 
+    background-position: left bottom;
+}
+
+.dd-bottom-right{
+    position: absolute;
+    left: 15px;
+    right: 0;
+    top: 0;
+    overflow: hidden; 
+    height:15px; 
+    background: url(../assets/dd_bottom_right.png) no-repeat; 
+    background-position: right bottom;
+    *margin-top:-3px;
+}
+
+.dd-bottom{height:15px; margin:0px; padding:0px; border:none; background:transparent; position:relative;}
 
 /* LEFT */
 .span-6 {
@@ -550,7 +575,7 @@ ul.dd-button-list li a:hover{
 .series-blue{float:left; background-color:#6dcff6; width: 15px; height: 15px; border-top:1px solid #407a91; border-left:1px solid #f2f2f2; border-right:1px solid #f2f2f2; border-bottom:1px solid #f2f2f2; margin-right:5px;}
 .series-orange{float:left; background-color:#ffc600; width: 15px; height: 15px; border-top:1px solid #407a91; border-left:1px solid #f2f2f2; border-right:1px solid #f2f2f2; border-bottom:1px solid #f2f2f2; margin-right:5px;}
 
-.leads-description span, .tag-and-rank-description span{position: absolute;}
+.leads-description span, .tag-and-rank-description span{position: absolute; z-index:0;}
 
 .leads-actions-holder {float: right; width:93px; height:27px; margin:11px 7px 0px 2px; background-image:url(../assets/lead_view_actions_bg.png);}
 .leads-actions-holder a.chart-view{float:left; height:27px; width:31px; background-image:url(../assets/31x81_chart.png); text-decoration:none;}
