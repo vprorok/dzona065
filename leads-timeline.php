@@ -20,19 +20,6 @@
                         <input type="text" class="searchbox" name="s" placeholder="Search for user with email address" />
                     </form>
                 </div>
-                <!--                    <div class="logged_user">
-                                        Philipe Sheffield <img class="header_settings" src="css/assets/16x16_header_settings.png">
-                                    </div>
-                                    <div class="user_settings_dd">
-                
-                                        <ul>
-                                            <li class="">Profile</li>
-                                            <li class="">Account</li>
-                                            <li class="">Help</li>
-                                            <li class="">Logout</li>
-                                        </ul>
-                                    </div> -->
-
                 <ul id="logged_user">
                     <li><span>Nikola Radović</span>
                     <dd class="top-1"><a href="#">Profile</a></dd>
