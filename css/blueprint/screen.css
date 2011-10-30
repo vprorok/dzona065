@@ -525,6 +525,7 @@ ul.dd-button-list li a:hover{
 .tag-purple{background-image: url(../assets/16x16_tag_purple.png);  background-repeat: no-repeat;}
 .tag-off{background-image: url(../assets/16x16_tag_off.png);  background-repeat: no-repeat;}
 
+.tag-red, .tag-yellow, .tag-green, .tag-blue, .tag-purple, .tag-off{ padding-left:20px; }
 
 /* CHART */
 #chart-holder, #leads-holder, #tag-and-rank-holder{width: 100%; margin:0px; float: left;}
@@ -736,3 +737,71 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 .clearfix:after, .container:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
 .clearfix, .container {display:block;}
 .clear {clear:both;}
+
+/* timeline */
+
+.timeline-item{
+	width: 250px;
+	background-color: #FFF;
+	margin: 15px;
+	padding: 10px;
+	float: left;
+	border-style:solid;
+	border-width:1px;
+	border-color: #CCC;
+	position: relative;
+}
+
+.timeline-item p{
+	margin-bottom: 0px;
+}
+
+.timeline-item h4{
+	margin-bottom: .5em;
+}
+
+.timeline-item.left div.info-arrows, .timeline-item.right div.info-arrows {
+    border-radius: 0 0 0 0;
+}
+
+.timeline-item div {
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+.timeline-item.left div.info-arrows, .timeline-item.right div.info-arrows 
+{
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+
+.timeline-item.left  .info-arrows {
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-width: 35px 0 35px 35px;
+	left: 270px;
+	top: 75px;
+}
+
+.timeline-item.right .info-arrows {
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-width: 35px 35px 35px 0;
+	left: -34px;
+	top: 75px;
+}
+
+.timeline-item.left .info-arrows, .timeline-item.right .info-arrows {
+    background: none repeat scroll 0 0 transparent;
+    border-style: solid;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    width: 0;
+	z-index: 98;
+	position: absolute;
+	display: block;
+}
