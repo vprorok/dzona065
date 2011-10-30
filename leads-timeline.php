@@ -108,7 +108,7 @@
                     </div>
 					<div class="clearfix"></div> 
 					<div id="timeline-holder">
-						<div class="timeline-item left" >
+						<div class="timeline-item left first" >
 							<div class="info-arrows  ui-state-default"></div>
 							<div class="timeline-title">
 								<h4><strong>Personal</strong>
@@ -120,8 +120,18 @@
 							</div>
 							<div class="clearfix"></div>
 						</div>
-					</div>
-					<div id="timeline-holder">
+						<div class="timeline-item right" >
+							<div class="info-arrows  ui-state-default"></div>
+							<div class="timeline-title">
+								<h4><strong>Get more info</strong>
+									<p class="tag-purple">Oct 15 2011 at 4:32 pm</p>
+								</h4>
+							</div>
+							<div class="thumb-holder">
+								<img src="thumbs/preview.png" height="200px" width="250px"></img>
+							</div>
+							<div class="clearfix"></div>
+						</div>
 						<div class="timeline-item right" >
 							<div class="info-arrows  ui-state-default"></div>
 							<div class="timeline-title">

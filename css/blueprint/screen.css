@@ -765,10 +765,14 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 
 /* timeline */
 
+#timeline-holder{
+	padding: 15px;
+}
+
 .timeline-item{
 	width: 250px;
 	background-color: #FFF;
-	margin: 15px;
+	margin: 10px 0 5px;
 	padding: 10px;
 	float: left;
 	border-style:solid;
@@ -783,6 +787,10 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 
 .timeline-item h4{
 	margin-bottom: .5em;
+}
+
+.timeline-item.first{
+	margin-top: 70px;
 }
 
 .timeline-item.left div.info-arrows, .timeline-item.right div.info-arrows {
