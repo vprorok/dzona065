@@ -19,19 +19,6 @@
                         <input type="text" class="searchbox" name="s" placeholder="Search for user with email address" />
                     </form>
                 </div>
-                <!--                    <div class="logged_user">
-                                        Philipe Sheffield <img class="header_settings" src="css/assets/16x16_header_settings.png">
-                                    </div>
-                                    <div class="user_settings_dd">
-                
-                                        <ul>
-                                            <li class="">Profile</li>
-                                            <li class="">Account</li>
-                                            <li class="">Help</li>
-                                            <li class="">Logout</li>
-                                        </ul>
-                                    </div> -->
-
                 <ul id="logged_user">
                     <li><span>Nikola Džona Radović</span>
                     <dd><a href="#">Profile</a></dd>
@@ -58,82 +45,193 @@
                 </ul>
             </div>
             <div class="span-19">
-                <div id="page-title">www.honestdata.com</div>
-                <div class="horisontal-line">&nbsp;</div>
-                <div id="pie-holder">
-                    <div class="pie1">&nbsp;</div>
-                    <div class="pie-description">
-                        <b>Lead by score</b>
-                        <ul>
-                            <li class="lead-red">200+</li>
-                            <li class="lead-yellow">150-199</li>
-                            <li class="lead-green">100-149</li>
-                            <li class="lead-blue">50-99</li>
-                            <li class="lead-purple">0-49</li>
-                        </ul>    
-                    </div>
-                    <div class="pie2">&nbsp;</div>
-                    <div class="pie-description">
-                        <b>Popular tags</b>
-                        <ul>
-                            <li class="tag-red">Pricing</li>
-                            <li class="tag-yellow">datasheet</li>
-                            <li class="tag-green">tour</li>
-                            <li class="tag-blue">Credit Card</li>
-                            <li class="tag-purple">offer12few</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="horisontal-line">&nbsp;</div>
-                <div id="chart-holder">
-                    <div id="chart-header">
-                        <div class="chart-control">
-                            <span class="title click-icon-off bg-pos-2">Leads vs. Visitors</span><div class="icon arrow mrgn-icon-4"></div>
+                <div id="page-title">Tag and Rank</div>
 
+                <div class="horisontal-line">&nbsp;</div>
+
+                <div id="tag-and-rank-holder">
+                    <div id="tag-and-rank-header">
+                        <div class="tag-and-rank-control">
                             <div class="input-box-wrapper">
-                                <form action="#">
-                                    <input type="text" class="inputbox" placeholder="Sep 15, 2011 - Oct 15 2011" />
-                                </form>
+                                <input type="text" class="inputbox wdth-476" placeholder="Enter a new url here" />
                             </div>
-                            <a class="button" href="#"><span>Sort by Date<img class="mrgn-lft-5" src="css/assets/arrow_down_off.png"></span></a>
-                            <div class="dd-button-holder">
-                                <a class="button" href="#"><span>Tamo neko dugme<img class="mrgn-lft-5" src="css/assets/arrow_down_off.png"></span></a>
-                                <ul class="dd-button">
-
-                                    <li><a href="#">Pricing</a></li>
-                                    <li><a href="#" class="sort-check bg-pos-5">datasheet</a></li>
-                                    <li><a href="#">tour</a></li>
-                                    <li><a href="#">Credit Card</a></li>
-                                    <li><a href="#">offer12few</a></li>
-                                </ul>
-                                <div class="dd-bottom mrgn-bottom-2"><div class="dd-bottom-left">&nbsp;</div><div class="dd-bottom-right">&nbsp;</div></div>
-                            </div>
-                            
-                            <a class="button" href="#"><span>Sort by Date<img class="mrgn-lft-5" src="css/assets/arrow_down_off.png"></span></a>
+                            <a class="button" href="#"><span class="wdth-89"><b>Get Started</b></span></a>
                         </div>
                         <div class="horisontal-line">&nbsp;</div>
-                        <div class="chart-description">
-                            &nbsp;
+                        <div class="tag-and-rank-description">
+                            <div class="relative-holder">
+                                <span class="lft-20"><div class="icon arrow mrgn-button-1"></div><b>Pricing</b></span>
+                                <span class="lft-250">http://www.honestdata.com/pricing</span>
+                            </div>
                         </div>
                     </div>
+                    <div class="horisontal-line">&nbsp;</div>
+                    <table id="tag-and-rank-content" cellpadding="0" cellspacing="0">
+                        <tbody>
+                            <tr class="row">
+                                <td class="col-separator"></td>
+                                <td class="score tag-purple bg-pos-6">67812</td>
+                                <td class="leads-col-1">Philip Sheffield</td>
+                                <td class="leads-col-2">Philip Sheffield</td>
+                                <td class="col-separator"></td>
+                            </tr>
+                            <tr class="row">
+                                <td class="col-separator"></td>
+                                <td class="score tag-blue bg-pos-6">4521</td>
+                                <td class="leads-col-1">Some User</td>
+                                <td class="leads-col-2">Philip Sheffield</td>
+                                <td class="col-separator"></td>
+                            </tr>
+                            <tr class="row">
+                                <td class="col-separator"></td>
+                                <td class="score tag-yellow bg-pos-6">2133</td>
+                                <td class="leads-col-1">Soham Mehta</td>
+                                <td class="leads-col-2">Philip Sheffield</td>
+                                <td class="col-separator"></td>
+                            </tr>
+                            <tr class="row">
+                                <td class="col-separator"></td>
+                                <td class="score tag-green bg-pos-6">3322</td>
+                                <td class="leads-col-1">Philip Sheffield</td>
+                                <td class="leads-col-2">Philip Sheffield</td>
+                                <td class="col-separator"></td>
+                            </tr>
+                            <tr class="row">
+                                <td class="col-separator"></td>
+                                <td class="score tag-blue bg-pos-6">32445</td>
+                                <td class="leads-col-1">Philip Sheffield</td>
+                                <td class="leads-col-2">Philip Sheffield</td>
+                                <td class="col-separator"></td>
+                            </tr>
+                            <tr class="row">
+                                <td class="col-separator"></td>
+                                <td class="score tag-red bg-pos-6">87</td>
+                                <td class="leads-col-1">Soham Mehta</td>
+                                <td class="leads-col-2">Philip Sheffield</td>
+                                <td class="col-separator"></td>
+                            </tr>
+                            <tr class="row">
+                                <td class="col-separator"></td>
+                                <td class="score tag-purple bg-pos-6">85</td>
+                                <td class="leads-col-1">Unidentified</td>
+                                <td class="leads-col-2">Philip Sheffield</td>
+                                <td class="col-separator"></td>
+                            </tr>
+                            <tr class="row">
+                                <td class="col-separator"></td>
+                                <td class="score tag-blue bg-pos-6">12</td>
+                                <td class="leads-col-1">Unidentified</td>
+                                <td class="leads-col-2">Philip Sheffield</td>
+                                <td class="col-separator"></td>
+                            </tr>
+                            <tr class="row bold">
+                                <td class="col-separator"></td>
+                                <td class="score tag-off bg-pos-6">+</td>
+                                <td class="leads-col-1">Add another click tag</td>
+                                <td class="leads-col-2">&nbsp;</td>
+                                <td class="col-separator"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="horisontal-line">&nbsp;</div>
+
+                    <div id="tag-and-rank-header">
+                        <div class="tag-and-rank-description">
+                            <div class="relative-holder">
+                                <span class="lft-20"><div class="icon arrow mrgn-button-1"></div><b>Tour</b></span>
+                                <span class="lft-250">http://www.honestdata.com/tour</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="horisontal-line">&nbsp;</div>
+                    <table id="tag-and-rank-content" cellpadding="0" cellspacing="0">
+                        <tbody>
+                            <tr class="row">
+                                <td class="col-separator"></td>
+                                <td class="score tag-purple bg-pos-6">67812</td>
+                                <td class="leads-col-1">Philip Sheffield</td>
+                                <td class="leads-col-2">Philip Sheffield</td>
+                                <td class="col-separator"></td>
+                            </tr>
+                            <tr class="row">
+                                <td class="col-separator"></td>
+                                <td class="score tag-blue bg-pos-6">32445</td>
+                                <td class="leads-col-1">Philip Sheffield</td>
+                                <td class="leads-col-2">Philip Sheffield</td>
+                                <td class="col-separator"></td>
+                            </tr>
+                            <tr class="row">
+                                <td class="col-separator"></td>
+                                <td class="score tag-red bg-pos-6">87</td>
+                                <td class="leads-col-1">Soham Mehta</td>
+                                <td class="leads-col-2">Philip Sheffield</td>
+                                <td class="col-separator"></td>
+                            </tr>
+                            <tr class="row">
+                                <td class="col-separator"></td>
+                                <td class="score tag-purple bg-pos-6">85</td>
+                                <td class="leads-col-1">Unidentified</td>
+                                <td class="leads-col-2">Philip Sheffield</td>
+                                <td class="col-separator"></td>
+                            </tr>
+                            <tr class="row">
+                                <td class="col-separator"></td>
+                                <td class="score tag-blue bg-pos-6">12</td>
+                                <td class="leads-col-1">Unidentified</td>
+                                <td class="leads-col-2">Philip Sheffield</td>
+                                <td class="col-separator"></td>
+                            </tr>
+                            <tr class="row bold">
+                                <td class="col-separator"></td>
+                                <td class="score tag-off bg-pos-6">+</td>
+                                <td class="leads-col-1">Add another click tag</td>
+                                <td class="leads-col-2">&nbsp;</td>
+                                <td class="col-separator"></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
 
+
+                <div class="horisontal-line">&nbsp;</div>
+                <div id="tag-and-rank-holder">
+                    <div id="tag-and-rank-header">
+                        <div class="tag-and-rank-description">
+                            <div class="relative-holder">
+                                <span class="lft-20"><div class="icon arrow mrgn-button-1"></div><b>Some other page</b></span>
+                                <span class="lft-250">http://www.honestdata.com/tour</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="horisontal-line">&nbsp;</div>
+                </div>
+                <div id="tag-and-rank-holder">
+                    <div id="tag-and-rank-header">
+                        <div class="tag-and-rank-description">
+                            <div class="relative-holder">
+                                <span class="lft-20"><div class="icon arrow mrgn-button-1"></div><b>Another page</b></span>
+                                <span class="lft-250">http://www.honestdata.com/tour</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="horisontal-line">&nbsp;</div>
+                </div>
+                <div id="tag-and-rank-holder">
+                    <div id="tag-and-rank-header">
+                        <div class="tag-and-rank-description">
+                            <div class="relative-holder">
+                                <span class="lft-20"><div class="icon arrow mrgn-button-1"></div><b>Completely different page</b></span>
+                                <span class="lft-250">http://www.honestdata.com/tour</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="horisontal-line">&nbsp;</div>
+                </div>
             </div>
             <div class="span-24">
                 The footer
             </div>
-        </div>
-        <div class="dd-button-holder">
-            <a class="button" href="#"><span>Tamo neko dugme<img class="mrgn-lft-5" src="css/assets/arrow_down_off.png"></span></a>
-            <ul class="dd-button">
-
-                <li><a href="#">Pricing</a></li>
-                <li class="tag-yellow"><a href="#">datasheet</a></li>
-                <li><a href="#">tour</a></li>
-                <li><a href="#">Credit Card</a></li>
-                <li><a href="#">offer12few</a></li>
-            </ul>
-            <div class="dd-bottom mrgn-bottom-2"><div class="dd-bottom-left">&nbsp;</div><div class="dd-bottom-right">&nbsp;</div></div>
         </div>
     </body>
 </html>

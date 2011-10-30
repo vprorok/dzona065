@@ -84,16 +84,15 @@
                                 <input type="text" class="inputbox wdth-204" placeholder="Sep 15, 2011 - Oct 15 2011" />
                             </div>
 
-                            <div class="dd-button-holder mrgn-button-1">
-                                <a class="button" href="#"><span>Sort by Date<img class="mrgn-lft-5" src="css/assets/arrow_down_off.png"></span></a>
-                                <ul class="dd-button" style="display: none;">
-
+                            <div class="dd-button-list-holder mrgn-button-1">
+                                <a class="dd-button" href="#"><span class="wdth-89">Sort by Date<img class="mrgn-lft-5" src="css/assets/arrow_down_off.png"></span></a>
+                                <ul class="dd-button-list wdth-119">
                                     <li><a href="#" class="sort-check bg-pos-5">Date</a></li>
                                     <li><a href="#">Click Tag</a></li>
                                     <li><a href="#"># Clicks</a></li>
-                                    <li><a href="#">Rank</a></li>
+                                    <li class="last"><a href="#">Rank</a></li>
+                                    <div class="dd-bottom"><div class="dd-bottom-left">&nbsp;</div><div class="dd-bottom-right">&nbsp;</div></div>
                                 </ul>
-                                <div style="display: none;" class="dd-bottom mrgn-bottom-2"><div class="dd-bottom-left">&nbsp;</div><div class="dd-bottom-right">&nbsp;</div></div>
                             </div>
 
                         </div>
@@ -119,16 +118,15 @@
                                 <input type="text" class="inputbox wdth-204" placeholder="Sep 15, 2011 - Oct 15 2011" />
                             </div>
 
-                            <div class="dd-button-holder mrgn-button-1">
-                                <a class="button" href="#"><span>Sort by Date<img class="mrgn-lft-5" src="css/assets/arrow_down_off.png"></span></a>
-                                <ul class="dd-button" style="display: none;">
-
+                            <div class="dd-button-list-holder mrgn-button-1">
+                                <a class="dd-button" href="#"><span class="wdth-89">Sort by Date<img class="mrgn-lft-5" src="css/assets/arrow_down_off.png"></span></a>
+                                <ul class="dd-button-list wdth-119">
                                     <li><a href="#" class="sort-check bg-pos-5">Date</a></li>
                                     <li><a href="#">Click Tag</a></li>
                                     <li><a href="#"># Clicks</a></li>
-                                    <li><a href="#">Rank</a></li>
+                                    <li class="last"><a href="#">Rank</a></li>
+                                    <div class="dd-bottom"><div class="dd-bottom-left">&nbsp;</div><div class="dd-bottom-right">&nbsp;</div></div>
                                 </ul>
-                                <div style="display: none;" class="dd-bottom mrgn-bottom-2"><div class="dd-bottom-left">&nbsp;</div><div class="dd-bottom-right">&nbsp;</div></div>
                             </div>
 
                         </div>
