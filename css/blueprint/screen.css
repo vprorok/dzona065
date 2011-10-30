@@ -326,17 +326,17 @@ ul.dd-button-list li a:hover{
 .top-5 {top:120px;}
 
 /*#logged_user dd a{border:1px solid #000; position:relative; *margin-left:1px; *margin-right:1px;}*/
-#logged_user dd a:before{position:absolute; top:-1px; left:-2px; right:-2px; display:block; content:''; border-left:1px solid red; border-right:1px solid red; height:100%; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+#logged_user dd a:before{position:absolute; top:-1px; left:-2px; right:-2px; display:block; content:''; border-left:1px solid #989898; border-right:1px solid #989898; height:100%; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
 
-#logged_user dd {position:relative; /*display:none;*/ /*background-color:#fdfdfd; border-left: 1px solid #989898; border-right: 1px solid #989898;*/ margin:0px -15px 0px -9px;}
+#logged_user dd {position:relative; display:none; /*background-color:#fdfdfd; border-left: 1px solid #989898; border-right: 1px solid #989898;*/ margin:0px -15px 0px -9px;}
 #logged_user dd a, #logged_user dd a:visited {position:absolute; left:0px; right:1px; padding:6px 0px 0px 10px; border-left:1px solid #fdfdfd; border-right:1px solid #fdfdfd; *border-left:1px solid #989898; *border-right:1px solid #989898; font-weight: bold; border-top:1px solid #fdfdfd; background:#fdfdfd; color:#747474; height:24px; text-decoration:none;}
 #logged_user dd a:hover {background: #e7e7e7; color:#6a6a6a; border-top:1px solid #f4f4f4; border-left:1px solid #fdfdfd; border-right:1px solid #fdfdfd; *border-left:1px solid #989898; *border-right:1px solid #989898;}
 
 .dd-bottom-left{
     float:left; 
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 0px;
+    top: 0px;
     width: 15px;
     width:15px; 
     height:15px; 
@@ -345,18 +345,19 @@ ul.dd-button-list li a:hover{
 }
 
 .dd-bottom-right{
+    float:right;
     position: absolute;
     left: 15px;
     right: 0;
-    top: 0;
+    top: 0px;
     overflow: hidden; 
     height:15px; 
     background: url(../assets/dd_bottom_right.png) no-repeat; 
     background-position: right bottom;
     *margin-top:-3px;
 }
-#logged_user li dd.dd-bottom div.dd-bottom-left{*left:-40px;}
-#logged_user li dd.dd-bottom div.dd-bottom-right{*right:-40px;}
+#logged_user li dd.dd-bottom div.dd-bottom-left{*left:-40px; left: -1px; top: -1px;}
+#logged_user li dd.dd-bottom div.dd-bottom-right{*right:0px; *left:-25px; top: -1px; left: 14px; margin-right:0px;}
 .dd-bottom{height:15px; margin:0px; padding:0px; border:none; background:transparent; position:relative;}
 
 /* LEFT */
@@ -464,9 +465,14 @@ ul.dd-button-list li a:hover{
 .mrgn-textbox-1{margin: 11px 12px 0px 0px;}
 .mrgn-arrow {margin: 13px 6px 0px 5px;}
 
+.lft-0{left: 0px;}
 .lft-20{left: 20px;}
+.lft-49{left: 49px;}
 .lft-100{left: 100px;}
+.lft-203{left: 203px;}
 .lft-250{left: 250px;}
+.lft-430{left: 430px;}
+.lft-487{left: 487px;}
 .lft-530{left: 530px;}
 .lft-590{left: 590px;}
 
@@ -563,14 +569,14 @@ ul.dd-button-list li a:hover{
 .tag-red, .tag-yellow, .tag-green, .tag-blue, .tag-purple, .tag-off{ padding-left:20px; }
 
 /* CHART */
-#chart-holder, #leads-holder, #tag-and-rank-holder{width: 100%; margin:0px; float: left;}
-#chart-holder .dd-button, #leads-holder .dd-button {float: left;}
-#chart-holder .input-box-wrapper, #leads-holder .input-box-wrapper {float: right;}
+#chart-holder, #leads-holder, #leads-list-holder, #tag-and-rank-holder{width: 100%; margin:0px; float: left;}
+#chart-holder .dd-button, #leads-list-holder .dd-button, #leads-holder .dd-button {float: left;}
+#chart-holder .input-box-wrapper, #leads-holder .input-box-wrapper, #leads-list-holder .input-box-wrapper {float: right;}
 #tag-and-rank-holder .button {float: right; margin:11px 15px 0px 0px;}
 #tag-and-rank-holder .input-box-wrapper {float: left; margin:12px 0px 0px 20px;}
-.chart-control, .leads-control, .tag-and-rank-control{background: #e9e9e9; height:53px;}
-.chart-control .title, .leads-control .title, .tag-and-rank-control .title{float: left; font-size: 18px; font-weight: bold; padding-left:25px; margin: 10px 0px 0px 20px;}
-.chart-description, .leads-description, .tag-and-rank-description{
+.chart-control, .leads-control, .leads-list-control, .tag-and-rank-control{background: #e9e9e9; height:53px;}
+.chart-control .title, .leads-list-control .title, .leads-control .title, .tag-and-rank-control .title{float: left; font-size: 18px; font-weight: bold; padding-left:25px; margin: 10px 0px 0px 20px;}
+.chart-description, .leads-description, .leads-list-description, .tag-and-rank-description{
     background: #eeeded;
     height:31px;
     font-size: 12px;
@@ -578,15 +584,15 @@ ul.dd-button-list li a:hover{
     color:#4e4e4e;
 }
 
-.leads-description .relative-holder, .tag-and-rank-description .relative-holder{height: 31px; position: relative; width: 680px;}
-.chart-description span{float:left; margin-left:20px;}
+.leads-description .relative-holder, .leads-list-description .relative-holder, .tag-and-rank-description .relative-holder{height: 31px; position: relative; width: 680px;}
+.chart-description span, .leads-list-description span{float:left; margin-left:20px;}
 .chart-img{background: url(../assets/680x316_chart.png) no-repeat; height:316px; width:680px;}
 .legend-holder {float:right; margin-right:60px; margin-top: 7px;}
 .legend-holder span {float:left; margin:0px 27px 0px 0px; line-height: 16px; font-size: 12px; color:#747474;}
 .series-blue{float:left; background-color:#6dcff6; width: 15px; height: 15px; border-top:1px solid #407a91; border-left:1px solid #f2f2f2; border-right:1px solid #f2f2f2; border-bottom:1px solid #f2f2f2; margin-right:5px;}
 .series-orange{float:left; background-color:#ffc600; width: 15px; height: 15px; border-top:1px solid #407a91; border-left:1px solid #f2f2f2; border-right:1px solid #f2f2f2; border-bottom:1px solid #f2f2f2; margin-right:5px;}
 
-.leads-description span, .tag-and-rank-description span{position: absolute; z-index:0;}
+.leads-description span, .leads-list-description span, .tag-and-rank-description span{position: absolute; z-index:0;}
 
 .leads-actions-holder {float: right; width:93px; height:27px; margin:11px 7px 0px 2px; background-image:url(../assets/lead_view_actions_bg.png);}
 .leads-actions-holder a.chart-view{float:left; height:27px; width:31px; background-image:url(../assets/31x81_chart.png); text-decoration:none;}
@@ -596,7 +602,7 @@ ul.dd-button-list li a:hover{
 .leads-actions-holder a:hover{background-position:left center;}
 .leads-actions-holder a.active{background-position:left bottom;}
 
-#leads-content, #tag-and-rank-content {background-color: #ffffff; width: 100%;}
+#leads-content, #leads-list-content, #tag-and-rank-content {background-color: #ffffff; width: 100%;}
 thead tr, tfoot tr {height:4px;}
 tbody tr {height:24px; border-top:1px solid #ffffff;}
 tbody tr.bold td {font-weight:bold;}
@@ -611,10 +617,18 @@ td.first-col {width:4px; background: url(../assets/left_frame.png) repeat-y;}
 td.last-col {width:4px; background: url(../assets/right_frame.png) repeat-y;}
 td.col-separator {width:2px; background:#ffffff;}
 td.score {width:59px; padding-left:35px;}
+
 #leads-content td.clicks {width:70px; text-align: center;}
 #leads-content td.date {width:84px;}
 #leads-content td.leads-col-1 {width:190px;}
 #leads-content td.leads-col-2 {width:230px;}
+
+#leads-list-content td.score {width:32px; padding-left:35px;}
+#leads-list-content td.clicks {width:58px; text-align: center;}
+#leads-list-content td.date {width:171px;}
+#leads-list-content td.leads-col-1 {width:153px;}
+#leads-list-content td.leads-col-2 {width:227px;}
+
 #tag-and-rank-content td.leads-col-1 {width:154px;}
 #tag-and-rank-content td.leads-col-2 {width:430px;}
 

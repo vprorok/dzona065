@@ -20,12 +20,12 @@
                     </form>
                 </div>
                 <ul id="logged_user">
-                    <li><span>Nikola Džona Radović</span>
-                    <dd><a href="#">Profile</a></dd>
-                    <dd><a href="#">Account</a></dd>
-                    <dd><a href="#">Help</a></dd>
-                    <dd><a href="#">Logout</a></dd>
-                    <div class="dd-bottom mrgn-bottom-1"><div class="dd-bottom-left">&nbsp;</div><div class="dd-bottom-right">&nbsp;</div></div>
+                    <li><span>Nikola Radović</span>
+                    <dd class="top-1"><a href="#">Profile</a></dd>
+                    <dd class="top-2"><a href="#">Account</a></dd>
+                    <dd class="top-3"><a href="#">Help</a></dd>
+                    <dd class="top-4"><a href="#">Logout</a></dd>
+                    <dd class="dd-bottom top-5"><div class="dd-bottom-left">&nbsp;</div><div class="dd-bottom-right">&nbsp;</div></dd>
                     </li>
                 </ul>
             </div>
