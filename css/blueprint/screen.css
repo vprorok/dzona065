@@ -319,9 +319,18 @@ ul.dd-button-list li a:hover{
 #logged_user li:hover dd, #logged_user li a:hover dd {display:block;}
 /*#logged_user li:hover .dd-bottom, #logged_user li a:hover .dd-bottom {display:block;}*/
 
-#logged_user dd {position:relative; display:none; background-color:#fdfdfd; margin:0px -15px 0px -9px; border-left: 1px solid #989898; border-right: 1px solid #989898;}
-#logged_user dd a, #logged_user dd a:visited {padding:6px 0px 0px 10px; border-left:1px solid #fdfdfd; border-right:1px solid #fdfdfd; font-weight: bold; border-top:1px solid #fdfdfd; background:#fdfdfd; color:#747474; height:24px; text-decoration:none;}
-#logged_user dd a:hover {background: #e7e7e7; color:#6a6a6a; border-top:1px solid #f4f4f4; border-left:1px solid #fdfdfd; border-right:1px solid #fdfdfd;}
+.top-1 {top:0px;}
+.top-2 {top:30px;}
+.top-3 {top:60px;}
+.top-4 {top:90px;}
+.top-5 {top:120px;}
+
+/*#logged_user dd a{border:1px solid #000; position:relative; *margin-left:1px; *margin-right:1px;}*/
+#logged_user dd a:before{position:absolute; top:-1px; left:-2px; right:-2px; display:block; content:''; border-left:1px solid red; border-right:1px solid red; height:100%; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+
+#logged_user dd {position:relative; /*display:none;*/ /*background-color:#fdfdfd; border-left: 1px solid #989898; border-right: 1px solid #989898;*/ margin:0px -15px 0px -9px;}
+#logged_user dd a, #logged_user dd a:visited {position:absolute; left:0px; right:1px; padding:6px 0px 0px 10px; border-left:1px solid #fdfdfd; border-right:1px solid #fdfdfd; *border-left:1px solid #989898; *border-right:1px solid #989898; font-weight: bold; border-top:1px solid #fdfdfd; background:#fdfdfd; color:#747474; height:24px; text-decoration:none;}
+#logged_user dd a:hover {background: #e7e7e7; color:#6a6a6a; border-top:1px solid #f4f4f4; border-left:1px solid #fdfdfd; border-right:1px solid #fdfdfd; *border-left:1px solid #989898; *border-right:1px solid #989898;}
 
 .dd-bottom-left{
     float:left; 
@@ -346,7 +355,8 @@ ul.dd-button-list li a:hover{
     background-position: right bottom;
     *margin-top:-3px;
 }
-
+#logged_user li dd.dd-bottom div.dd-bottom-left{*left:-40px;}
+#logged_user li dd.dd-bottom div.dd-bottom-right{*right:-40px;}
 .dd-bottom{height:15px; margin:0px; padding:0px; border:none; background:transparent; position:relative;}
 
 /* LEFT */
