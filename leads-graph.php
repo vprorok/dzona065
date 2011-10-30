@@ -78,7 +78,7 @@
                             <div class="input-box-wrapper mrgn-textbox-1">
                                 <input type="text" class="inputbox wdth-204" placeholder="Sep 15, 2011 - Oct 15 2011" />
                             </div>
-
+                            <div class="leads-actions-holder"><a class="chart-view active" href="#">&nbsp;</a><a class="time-view" href="#">&nbsp;</a><a class="tabular-view" href="#">&nbsp;</a></div>
                             <div class="dd-button-list-holder mrgn-button-1">
                                 <a class="dd-button" href="#"><span class="wdth-89">Sort by Date<img class="mrgn-lft-5" src="css/assets/arrow_down_off.png"></span></a>
                                 <ul class="dd-button-list wdth-119">

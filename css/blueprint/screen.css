@@ -541,6 +541,14 @@ ul.dd-button-list li a:hover{
 
 .leads-description span, .tag-and-rank-description span{position: absolute;}
 
+.leads-actions-holder {float: right; width:93px; height:27px; margin:11px 7px 0px 2px; background-image:url(../assets/lead_view_actions_bg.png);}
+.leads-actions-holder a.chart-view{float:left; height:27px; width:31px; background-image:url(../assets/31x81_chart.png); text-decoration:none;}
+.leads-actions-holder a.time-view{float:left; height:27px; width:31px; background-image:url(../assets/31x81_time.png); text-decoration:none;}
+.leads-actions-holder a.tabular-view{float:left; height:27px; width:31px; background-image:url(../assets/31x81_tabular.png); text-decoration:none;}
+
+.leads-actions-holder a:hover{background-position:left center;}
+.leads-actions-holder a.active{background-position:left bottom;}
+
 #leads-content, #tag-and-rank-content {background-color: #ffffff; width: 100%;}
 thead tr, tfoot tr {height:4px;}
 tbody tr {height:24px; border-top:1px solid #ffffff;}
