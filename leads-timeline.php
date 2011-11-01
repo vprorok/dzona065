@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="css/jquery-ui-1.8.16.custom.css" type="text/css" media="screen, projection">
-		<link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
+        <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
         <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print"> 
         <!--[if lt IE 8]>
         <link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
@@ -48,7 +48,7 @@
             <div class="span-19">
                 <div id="page-title" class="bg-leads">dunn@magic.com<img src="css/assets/15x8_arrow_down.png"></div>
                 <div class="horisontal-line">&nbsp;</div>
-				<div id="pie-holder">
+                <div id="pie-holder">
                     <div class="pie1">&nbsp;</div>
                     <div class="google-map">
                         <b>Aproximate Location</b>
@@ -70,7 +70,7 @@
                 <div class="horisontal-line">&nbsp;</div>
                 <div id="chart-holder">
                     <div id="chart-header">
-						<div class="chart-control">
+                        <div class="chart-control">
                             <span class="title click-icon-off bg-pos-2">Clicks</span><div class="icon arrow mrgn-icon-4"></div>
                             <div class="input-box-wrapper mrgn-textbox-1">
                                 <input type="text" placeholder="Sep 15, 2011 - Oct 15 2011" class="inputbox wdth-204">
@@ -89,49 +89,56 @@
 
                         </div>
                         <div class="horisontal-line">&nbsp;</div>
-						<div class="chart-description">
+                        <div class="chart-description">
                             <span>This graph only shows clicks that you have tagged previously</span>
                         </div>
+                        <div class="horisontal-line">&nbsp;</div>
                     </div>
-					<div class="clearfix"></div> 
-					<div id="timeline-holder">
-						<div class="timeline-item left first" >
-							<div class="info-arrows  ui-state-default"></div>
-							<div class="timeline-title">
-								<h4><strong>Personal</strong>
-									<p class="tag-red">Oct 15 2011 at 4:32 pm</p>
-								</h4>
-							</div>
-							<div class="thumb-holder">
-								<img src="thumbs/preview.png" height="200px" width="250px"></img>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-						<div class="timeline-item right" >
-							<div class="info-arrows  ui-state-default"></div>
-							<div class="timeline-title">
-								<h4><strong>Get more info</strong>
-									<p class="tag-purple">Oct 15 2011 at 4:32 pm</p>
-								</h4>
-							</div>
-							<div class="thumb-holder">
-								<img src="thumbs/preview.png" height="200px" width="250px"></img>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-						<div class="timeline-item right" >
-							<div class="info-arrows  ui-state-default"></div>
-							<div class="timeline-title">
-								<h4><strong>Get more info</strong>
-									<p class="tag-green">Oct 15 2011 at 4:32 pm</p>
-								</h4>
-							</div>
-							<div class="thumb-holder">
-								<img src="thumbs/preview.png" height="200px" width="250px"></img>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</div>
+                    <div class="clearfix"></div> 
+                    <div id="timeline-holder">
+
+                        <div class="timeline-line"></div>
+                        <div class="timeline-item left first" >
+                            <div class="info-arrows-border ui-state-default"></div>
+                            <div class="info-arrows  ui-state-default"></div>
+                            <div class="timeline-title">
+                                <h4><strong>Personal</strong>
+                                    <p class="tag-red">Oct 15 2011 at 4:32 pm</p>
+                                </h4>
+                            </div>
+                            <div class="thumb-holder">
+                                <img src="thumbs/preview.png" height="206px" width="242px"></img>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="timeline-item right" >
+                            <div class="info-arrows-border ui-state-default"></div>
+                            <div class="info-arrows  ui-state-default"></div>
+                            <div class="timeline-title">
+                                <h4><strong>Get more info</strong>
+                                    <p class="tag-purple">Oct 15 2011 at 4:32 pm</p>
+                                </h4>
+                            </div>
+                            <div class="thumb-holder">
+                                <img src="thumbs/preview.png" height="206px" width="242px"></img>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="timeline-item right" >
+                            <div class="info-arrows-border ui-state-default"></div>
+                            <div class="info-arrows  ui-state-default"></div>
+                            <div class="timeline-title">
+                                <h4><strong>Get more info</strong>
+                                    <p class="tag-green">Oct 15 2011 at 4:32 pm</p>
+                                </h4>
+                            </div>
+                            <div class="thumb-holder">
+                                <img src="thumbs/preview.png" height="206px" width="242px"></img>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+
+                    </div>
                 </div>
 
             </div>

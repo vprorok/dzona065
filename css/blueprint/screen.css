@@ -150,6 +150,7 @@ a.dd-button span {
     padding-left: 8px;
     padding-right: 15px;
     font-size: 12px;
+    font-weight: bold;
     color: #747474;
 } 
 
@@ -295,12 +296,14 @@ ul.dd-button-list li a:hover{
 }
 
 /* USER SETTINGS DROPDOWN LIST*/
-#logged_user {list-style-type:none; 
+#logged_user {
+    list-style-type:none; 
     float:right;
     margin:0px;
     padding: 15px 15px 0px 9px;
     width: auto;
     color: #ccc;
+    text-shadow: 0px -1px 0px #000;
 }
 
 #logged_user:hover li span {
@@ -308,12 +311,11 @@ ul.dd-button-list li a:hover{
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
     filter: alpha(opacity=70);
     opacity: 0.7;
-
 }
 .dd-button-list-holder ul li.dd-bottom {border:none; height:15px; background:transparent; position: relative;}
 #logged_user li.dd-bottom {border:none; height:15px; background:transparent;}
-#logged_user li {padding:15px 15px 15px 10px; margin:-15px -15px -15px -10px; position:relative; z-index:100;}
-#logged_user li span {margin:-19px -15px 0 -10px; display:block; padding:19px 41px 18px 10px; z-index:100; background: url(../assets/31x16_header_settings.png) no-repeat; background-position:right center;}
+#logged_user li {padding:15px 15px 15px 10px; margin:-15px -15px -15px -10px; position:relative; z-index:100; font-size: 16px;}
+#logged_user li span {margin:-19px -15px -6px -10px; display:block; padding:19px 41px 18px 10px; z-index:100; background: url(../assets/31x16_header_settings.png) no-repeat; background-position:right center;}
 #logged_user li a, #logged_user li a:visited {display:block;}
 #logged_user li a:hover {background:#fdfdfd; border-left:1px solid #fdfdfd; border-right:1px solid #fdfdfd;}
 #logged_user li:hover dd, #logged_user li a:hover dd {display:block;}
@@ -329,7 +331,7 @@ ul.dd-button-list li a:hover{
 #logged_user dd a:before{position:absolute; top:-1px; left:-2px; right:-2px; display:block; content:''; border-left:1px solid #989898; border-right:1px solid #989898; height:100%; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
 
 #logged_user dd {position:relative; display:none; /*background-color:#fdfdfd; border-left: 1px solid #989898; border-right: 1px solid #989898;*/ margin:0px -15px 0px -9px;}
-#logged_user dd a, #logged_user dd a:visited {position:absolute; left:0px; right:1px; padding:6px 0px 0px 10px; border-left:1px solid #fdfdfd; border-right:1px solid #fdfdfd; *border-left:1px solid #989898; *border-right:1px solid #989898; font-weight: bold; border-top:1px solid #fdfdfd; background:#fdfdfd; color:#747474; height:24px; text-decoration:none;}
+#logged_user dd a, #logged_user dd a:visited {position:absolute; left:0px; right:1px; padding:6px 0px 0px 10px; border-left:1px solid #fdfdfd; border-right:1px solid #fdfdfd; *border-left:1px solid #989898; *border-right:1px solid #989898; font-size:14px; font-weight: bold; border-top:1px solid #fdfdfd; background:#fdfdfd; color:#747474; height:24px; text-decoration:none; text-shadow: 0px 0px 0px #fff;}
 #logged_user dd a:hover {background: #e7e7e7; color:#6a6a6a; border-top:1px solid #f4f4f4; border-left:1px solid #fdfdfd; border-right:1px solid #fdfdfd; *border-left:1px solid #989898; *border-right:1px solid #989898;}
 
 .dd-bottom-left{
@@ -381,15 +383,8 @@ ul.dd-button-list li a:hover{
     border-left: none;
     height: 32px;
     width: 249px;
-/*    *width: 300px;*/
     margin: 0px;
-}
-.span-6 ul a.menu-item {
-    padding:0px;
-    margin:0px;
-    color:#000000;
-    text-decoration:none;
-    cursor:pointer;
+    color: #333333;
 }
 
 .span-6 ul li:hover{
@@ -407,9 +402,17 @@ ul.dd-button-list li a:hover{
     border-right: 1px solid #6e6e6e;
     border-left: none;
     color: #ffffff;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #6B6B6B;
 }
 
-.span-6 ul li.active{font-weight: bold;}
+.span-6 ul a.menu-item {
+    padding:0px;
+    margin:0px;
+    color:#000000;
+    text-decoration:none;
+    cursor:pointer;
+}
 
 .icon{
     float: left;
@@ -425,7 +428,11 @@ ul.dd-button-list li a:hover{
 
 .span-6 ul li span{
     float: left;
-    margin-top: 8px;
+/*    margin-top: 8px;*/
+    line-height: 32px;
+    font-size: 15px;
+/*    color:#333333;*/
+    text-shadow: 0 1px 0 #6B6B6B;
 }
 
 .span-6 ul li div.num_box{
@@ -442,8 +449,10 @@ ul.dd-button-list li a:hover{
 .span-6 ul li div span{
     width: auto;
     height: 20px;
+    line-height: 20px;
     padding-right: 9px;
     margin-top: 0px;
+    font-size: 11px;
     overflow: hidden;
     background: url(../assets/num_box_right.png) no-repeat; 
     background-position:right top;
@@ -517,7 +526,7 @@ ul.dd-button-list li a:hover{
 .span-6 ul li.active div.invite_colleagues-icon{ background-position:0px -16px;}
 .span-6 ul li.active div.arrow{ background-position:0px -6px;}
 .span-6 ul li.active div.num_box{ background-position:left bottom; color:#000000;}
-.span-6 ul li.active div.num_box span{ background-position:right bottom; color:#000000;}
+.span-6 ul li.active div.num_box span{ background-position:right bottom; color:#000000; color:#333333; text-shadow: 0 0 0 #fff;}
 
 /* CONTENT */
 .span-19 {
@@ -787,21 +796,25 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 .clearfix, .container {display:block;}
 .clear {clear:both;}
 
-/* timeline */
+/* TIMELINE */
 
 #timeline-holder{
-	padding: 15px;
+	padding: 20px 25px;
+        float: left;
+        position: relative;
 }
 
+.timeline-line {position:absolute; top:20px; left:50%; bottom:20px; margin-left:-2px; width:4px; background-color:#e6e6e6;}
+
 .timeline-item{
-	width: 250px;
+	width: 253px;
 	background-color: #FFF;
-	margin: 10px 0 5px;
-	padding: 10px;
+	margin: 0 0 10px 0;
+	padding: 10px 0 10px 10px;
 	float: left;
 	border-style:solid;
 	border-width:1px;
-	border-color: #CCC;
+	border-color: #c7c2c2;
 	position: relative;
 }
 
@@ -817,7 +830,7 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 	margin-top: 70px;
 }
 
-.timeline-item.left div.info-arrows, .timeline-item.right div.info-arrows {
+/*.timeline-item.left div.info-arrows, .timeline-item.right div.info-arrows {
     border-radius: 0 0 0 0;
 }
 
@@ -830,28 +843,59 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 {
 	-moz-border-radius: 0px;
 	border-radius: 0px;
-}
+}*/
 
 
 .timeline-item.left  .info-arrows {
     border-bottom-color: transparent;
     border-right-color: transparent;
     border-top-color: transparent;
-    border-width: 35px 0 35px 35px;
-	left: 270px;
-	top: 75px;
+    border-width: 45px 0 45px 45px;
+	left: 263px;
+	top: 50%;
+        margin-top: -45px;
+}
+
+.timeline-item.left .info-arrows-border {
+/*    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;*/
+    border-color: transparent transparent transparent #c7c2c2;
+    border-width: 45px 0 45px 45px;
+	left: 264px;
+	top: 50%;
+        margin-top: -45px;
 }
 
 .timeline-item.right .info-arrows {
     border-bottom-color: transparent;
     border-left-color: transparent;
     border-top-color: transparent;
-    border-width: 35px 35px 35px 0;
-	left: -34px;
-	top: 75px;
+/*border-color: transparent #c7c2c2 transparent transparent;*/
+    border-width: 45px 45px 45px 0;
+	left: -45px;
+	top: 50%;
+        margin-top: -45px;
 }
 
-.timeline-item.left .info-arrows, .timeline-item.right .info-arrows {
+.timeline-item.right .info-arrows-border {
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-color: transparent #c7c2c2 ;
+    border-width: 45px 45px 45px 0;
+	left: -46px;
+	top: 50%;
+        margin-top: -45px;
+}
+
+
+.border {
+    left: 264px; 
+    border-color: transparent transparent transparent #000;
+}
+
+.timeline-item.left .info-arrows, .timeline-item.right .info-arrows, .timeline-item.right .info-arrows-border, .timeline-item.left .info-arrows-border {
     background: none repeat scroll 0 0 transparent;
     border-style: solid;
     font-size: 0;
@@ -861,4 +905,13 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 	z-index: 98;
 	position: absolute;
 	display: block;
+}
+
+.thumb-holder {
+    margin: -1px; 
+    width: 242px;
+    height: 206px;
+    padding: 0; 
+    float:left; 
+    border: 1px solid #cacaca;
 }
