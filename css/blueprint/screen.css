@@ -227,7 +227,7 @@ ul.dd-button-list li a:hover{
 }
 
 /* grid.css */
-.container {width:1000px;margin:0 auto; background: #e6e6e6;}
+.container {position:relative; width:1000px;margin:0 auto; background: #e6e6e6;}
 .showgrid {background:url(src/grid.png);}
 .column, .span-1, .span-2, .span-3, .span-4, .span-5, .span-6, .span-7, .span-8, .span-9, .span-10, .span-11, .span-12, .span-13, .span-14, .span-15, .span-16, .span-17, .span-18, .span-19, .span-20, .span-21, .span-22, .span-23, .span-24 {float:left;margin-right:10px;}
 .last {margin-right:0;}
@@ -245,8 +245,9 @@ ul.dd-button-list li a:hover{
     background: url(../assets/header_bg.png) repeat-x;
     margin:0px;
     display:inline;
-
 }
+
+.span-24 a {cursor: pointer;}
 
 .headerImage{
     background: url(../assets/header_logo.png) no-repeat;
@@ -293,6 +294,17 @@ ul.dd-button-list li a:hover{
 
 .header_settings{
     margin-left: 5px;
+}
+
+/* FOOTER */
+.footer{
+    position:fixed;
+    bottom:0px;
+    width:1000px;
+    height: 51px;
+    background: url(../assets/header_bg.png) repeat-x;
+    margin:0px;
+    display:inline;
 }
 
 /* USER SETTINGS DROPDOWN LIST*/
@@ -364,15 +376,20 @@ ul.dd-button-list li a:hover{
 
 /* LEFT */
 .span-6 {
+    position: absolute;
+    top:51px;
+    left:0px;
+    border-right:1px solid #cccccc;
+    margin-right:-1px;
+    bottom:51px;
     width:250px;
     background: #e6e6e6;
     margin:0px;
-    height:100%;
 }
 
 /* MENU */
 .span-6 ul {list-style-type: none; vertical-align: middle; margin-top: -30px;}
-.span-6 ul, ol {margin: 0px; padding: 0px;}
+.span-6 ul, ol {margin:0px; padding:0px; *margin-top:-18px;}
 .span-6 ul li {
     list-style-type: none;
     vertical-align: middle;
@@ -382,8 +399,7 @@ ul.dd-button-list li a:hover{
     border-right: 1px solid #cccccc;
     border-left: none;
     height: 32px;
-    width: 249px;
-    margin: 0px;
+    margin: 0px -1px 0px 0px;
     color: #333333;
 }
 
@@ -519,7 +535,7 @@ ul.dd-button-list li a:hover{
 
 .span-6 ul li.active div.dashboard-icon{ background-position:0px -16px;}
 .span-6 ul li.active div.leads-icon{ background-position:0px -16px;}
-.span-6 ul li.active div.ledas-email-icon{ background-position:0px -16px;}
+.span-6 ul li.active div.leads-email-icon{ background-position:0px -16px;}
 .span-6 ul li.active div.leads-more-icon{ background-position:0px -16px;}
 .span-6 ul li.active div.getting_started-icon{ background-position:0px -16px;}
 .span-6 ul li.active div.tag_and_rank-icon{ background-position:0px -16px;}
@@ -530,6 +546,7 @@ ul.dd-button-list li a:hover{
 
 /* CONTENT */
 .span-19 {
+    float:right;
     width:680px;
     margin:0px;
     background: #f6f5f5;
@@ -629,17 +646,17 @@ td.score {width:59px; padding-left:35px;}
 
 #leads-content td.clicks {width:70px; text-align: center;}
 #leads-content td.date {width:84px;}
-#leads-content td.leads-col-1 {width:190px;}
-#leads-content td.leads-col-2 {width:230px;}
+#leads-content td.leads-col-1 {width:192px;}
+#leads-content td.leads-col-2 {width:232px;}
 
 #leads-list-content td.score {width:32px; padding-left:35px;}
 #leads-list-content td.clicks {width:58px; text-align: center;}
 #leads-list-content td.date {width:171px;}
-#leads-list-content td.leads-col-1 {width:153px;}
-#leads-list-content td.leads-col-2 {width:227px;}
+#leads-list-content td.leads-col-1 {width:155px;}
+#leads-list-content td.leads-col-2 {width:229px;}
 
-#tag-and-rank-content td.leads-col-1 {width:154px;}
-#tag-and-rank-content td.leads-col-2 {width:430px;}
+#tag-and-rank-content td.leads-col-1 {width:156px;}
+#tag-and-rank-content td.leads-col-2 {width:432px;}
 
 #leads-content {background-color: #ffffff;}
 /* FOOTER */

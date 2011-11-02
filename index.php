@@ -12,7 +12,7 @@
     <body>
         <div class="container">
             <div class="span-24">
-                <div class="headerImage"></div>
+                <a href="index.php"><div class="headerImage"></div></a>
                 <div id="searchwrapper">
                     <form action="#">
                         <input type="image" src="css/assets/15x15_search_icon.png" class="searchbox_submit" value="" />
@@ -142,126 +142,128 @@
                             </div>
                         </div>
                     </div>
+                    <div class="horisontal-line">&nbsp;</div>
                     <table id="leads-content" cellpadding="0" cellspacing="0">
-                        <thead>
+<!--                        <thead>
                             <tr>
                                 <th scope="col" class="left-corner"></th>
-                                <th scope="col" colspan="7" class="up-frame"></th>
+                                <th scope="col" colspan="5" class="up-frame"></th>
                                 <th scope="col" class="right-corner"></th>
                             </tr>
                         </thead>
                         <tfoot>
                             <tr>
                                 <td scope="col" class="left-corner"></td>
-                                <td scope="col" colspan="7" class="bottom-frame"></td>
+                                <td scope="col" colspan="5" class="bottom-frame"></td>
                                 <td scope="col" class="right-corner"></td>
                             </tr>
-                        </tfoot>
+                        </tfoot>-->
                         <tbody>
                             <tr class="row bold">
-                                <td class="first-col"></td>
-                                <td class="col-separator"></td>
+                                
+                                
                                 <td class="score lead-purple bg-pos-6">67812</td>
                                 <td class="leads-col-1">Philip Sheffield</td>
                                 <td class="leads-col-2">psheffie@gmail.com</td>
                                 <td class="clicks">4</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
-                                <td class="last-col"></td>
+                                
+                                
                             </tr>
                             <tr class="row bold">
-                                <td class="first-col"></td>
-                                <td class="col-separator"></td>
+                                
+                                
                                 <td class="score lead-blue bg-pos-6">4521</td>
                                 <td class="leads-col-1">Some User</td>
                                 <td class="leads-col-2">test@domain.com</td>
                                 <td class="clicks">4</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
-                                <td class="last-col"></td>
+                                
+                                
                             </tr>
                             <tr class="row">
-                                <td class="first-col"></td>
-                                <td class="col-separator"></td>
+                                
+                                
                                 <td class="score lead-yellow bg-pos-6">2133</td>
                                 <td class="leads-col-1">Soham Mehta</td>
                                 <td class="leads-col-2">soham.mehta@gmail.com</td>
                                 <td class="clicks">6674</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
-                                <td class="last-col"></td>
+                                
+                                
                             </tr>
                             <tr class="row">
-                                <td class="first-col"></td>
-                                <td class="col-separator"></td>
+                                
+                                
                                 <td class="score lead-green bg-pos-6">3322</td>
                                 <td class="leads-col-1">Philip Sheffield</td>
                                 <td class="leads-col-2">psheffie@gmail.com</td>
                                 <td class="clicks">1254</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
-                                <td class="last-col"></td>
+                                
+                                
                             </tr>
                             <tr class="row">
-                                <td class="first-col"></td>
-                                <td class="col-separator"></td>
+                                
+                                
                                 <td class="score lead-blue bg-pos-6">32445</td>
                                 <td class="leads-col-1">Philip Sheffield</td>
                                 <td class="leads-col-2">psheffie@gmail.com</td>
                                 <td class="clicks">421</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
-                                <td class="last-col"></td>
+                                
+                                
                             </tr>
                             <tr class="row">
-                                <td class="first-col"></td>
-                                <td class="col-separator"></td>
+                                
+                                
                                 <td class="score lead-red bg-pos-6">87</td>
                                 <td class="leads-col-1">Soham Mehta</td>
                                 <td class="leads-col-2">soham.mehta@gmail.com</td>
                                 <td class="clicks">49</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
-                                <td class="last-col"></td>
+                                
+                                
                             </tr>
                             <tr class="row bold">
-                                <td class="first-col"></td>
-                                <td class="col-separator"></td>
+                                
+                                
                                 <td class="score lead-purple bg-pos-6">85</td>
                                 <td class="leads-col-1">Unidentified</td>
                                 <td class="leads-col-2">unknown</td>
                                 <td class="clicks">87</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
-                                <td class="last-col"></td>
+                                
+                                
                             </tr>
                             <tr class="row">
-                                <td class="first-col"></td>
-                                <td class="col-separator"></td>
+                                
+                                
                                 <td class="score lead-blue bg-pos-6">12</td>
                                 <td class="leads-col-1">Unidentified</td>
                                 <td class="leads-col-2">unknown</td>
                                 <td class="clicks">6</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
-                                <td class="last-col"></td>
+                                
+                                
                             </tr>
                             <tr class="row">
-                                <td class="first-col"></td>
-                                <td class="col-separator"></td>
+                                
+                                
                                 <td class="score lead-yellow bg-pos-6">7</td>
                                 <td class="leads-col-1">Nikola Radović</td>
                                 <td class="leads-col-2">dzona065@gmail.com</td>
                                 <td class="clicks">4</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
-                                <td class="last-col"></td>
+                                
+                                
                             </tr>
                         </tbody>
                     </table>
+                    <div class="horisontal-line">&nbsp;</div>
                 </div>
             </div>
-            <div class="span-24">
+            <div class="footer">
                 The footer
             </div>
         </div>

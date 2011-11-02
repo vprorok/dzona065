@@ -12,7 +12,7 @@
     <body>
         <div class="container">
             <div class="span-24">
-                <div class="headerImage"></div>
+                <a href="index.php"><div class="headerImage"></div></a>
                 <div id="searchwrapper">
                     <form action="#">
                         <input type="image" src="css/assets/15x15_search_icon.png" class="searchbox_submit" value="" />
@@ -108,193 +108,193 @@
                     <table id="leads-list-content" cellpadding="0" cellspacing="0">
                         <tbody>
                             <tr class="row bold">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score lead-purple bg-pos-6">67</td>
                                 <td class="leads-col-1">Name of tag</td>
                                 <td class="leads-col-2">http://www.reallylongsite.com</td>
                                 <td class="clicks">4</td>
                                 <td class="date">10/02/2011 - 10:15pm</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row bold">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score lead-blue bg-pos-6">45</td>
                                 <td class="leads-col-1">Some User</td>
                                 <td class="leads-col-2">test@domain.com</td>
                                 <td class="clicks">4</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score lead-yellow bg-pos-6">23</td>
                                 <td class="leads-col-1">Soham Mehta</td>
                                 <td class="leads-col-2">soham.mehta@gmail.com</td>
                                 <td class="clicks">6674</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score lead-green bg-pos-6">33</td>
                                 <td class="leads-col-1">Philip Sheffield</td>
                                 <td class="leads-col-2">psheffie@gmail.com</td>
                                 <td class="clicks">1254</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score lead-blue bg-pos-6">32</td>
                                 <td class="leads-col-1">Philip Sheffield</td>
                                 <td class="leads-col-2">psheffie@gmail.com</td>
                                 <td class="clicks">421</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score lead-red bg-pos-6">87</td>
                                 <td class="leads-col-1">Soham Mehta</td>
                                 <td class="leads-col-2">soham.mehta@gmail.com</td>
                                 <td class="clicks">49</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row bold">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score lead-purple bg-pos-6">85</td>
                                 <td class="leads-col-1">Unidentified</td>
                                 <td class="leads-col-2">unknown</td>
                                 <td class="clicks">87</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score lead-blue bg-pos-6">12</td>
                                 <td class="leads-col-1">Unidentified</td>
                                 <td class="leads-col-2">unknown</td>
                                 <td class="clicks">6</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score lead-yellow bg-pos-6">7</td>
                                 <td class="leads-col-1">Nikola Radović</td>
                                 <td class="leads-col-2">dzona065@gmail.com</td>
                                 <td class="clicks">4</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score lead-green bg-pos-6">32</td>
                                 <td class="leads-col-1">Philip Sheffield</td>
                                 <td class="leads-col-2">psheffie@gmail.com</td>
                                 <td class="clicks">1254</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score lead-blue bg-pos-6">35</td>
                                 <td class="leads-col-1">Philip Sheffield</td>
                                 <td class="leads-col-2">psheffie@gmail.com</td>
                                 <td class="clicks">421</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score lead-red bg-pos-6">87</td>
                                 <td class="leads-col-1">Soham Mehta</td>
                                 <td class="leads-col-2">soham.mehta@gmail.com</td>
                                 <td class="clicks">49</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row bold">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score lead-purple bg-pos-6">85</td>
                                 <td class="leads-col-1">Unidentified</td>
                                 <td class="leads-col-2">unknown</td>
                                 <td class="clicks">87</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score lead-blue bg-pos-6">12</td>
                                 <td class="leads-col-1">Unidentified</td>
                                 <td class="leads-col-2">unknown</td>
                                 <td class="clicks">6</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score lead-yellow bg-pos-6">7</td>
                                 <td class="leads-col-1">Nikola Radović</td>
                                 <td class="leads-col-2">dzona065@gmail.com</td>
                                 <td class="clicks">4</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score lead-green bg-pos-6">32</td>
                                 <td class="leads-col-1">Philip Sheffield</td>
                                 <td class="leads-col-2">psheffie@gmail.com</td>
                                 <td class="clicks">1254</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score lead-blue bg-pos-6">35</td>
                                 <td class="leads-col-1">Philip Sheffield</td>
                                 <td class="leads-col-2">psheffie@gmail.com</td>
                                 <td class="clicks">421</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score lead-red bg-pos-6">87</td>
                                 <td class="leads-col-1">Soham Mehta</td>
                                 <td class="leads-col-2">soham.mehta@gmail.com</td>
                                 <td class="clicks">49</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row bold">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score lead-purple bg-pos-6">85</td>
                                 <td class="leads-col-1">Unidentified</td>
                                 <td class="leads-col-2">unknown</td>
                                 <td class="clicks">87</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score lead-blue bg-pos-6">12</td>
                                 <td class="leads-col-1">Unidentified</td>
                                 <td class="leads-col-2">unknown</td>
                                 <td class="clicks">6</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score lead-yellow bg-pos-6">7</td>
                                 <td class="leads-col-1">Nikola Radović</td>
                                 <td class="leads-col-2">dzona065@gmail.com</td>
                                 <td class="clicks">4</td>
                                 <td class="date">10/01/2011</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                         </tbody>
                     </table>

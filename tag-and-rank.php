@@ -12,7 +12,7 @@
     <body>
         <div class="container">
             <div class="span-24">
-                <div class="headerImage"></div>
+                <a href="index.php"><div class="headerImage"></div></a>
                 <div id="searchwrapper">
                     <form action="#">
                         <input type="image" src="css/assets/15x15_search_icon.png" class="searchbox_submit" value="" />
@@ -69,67 +69,67 @@
                     <table id="tag-and-rank-content" cellpadding="0" cellspacing="0">
                         <tbody>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score tag-purple bg-pos-6">67812</td>
                                 <td class="leads-col-1">Philip Sheffield</td>
                                 <td class="leads-col-2">Philip Sheffield</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score tag-blue bg-pos-6">4521</td>
                                 <td class="leads-col-1">Some User</td>
                                 <td class="leads-col-2">Philip Sheffield</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score tag-yellow bg-pos-6">2133</td>
                                 <td class="leads-col-1">Soham Mehta</td>
                                 <td class="leads-col-2">Philip Sheffield</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score tag-green bg-pos-6">3322</td>
                                 <td class="leads-col-1">Philip Sheffield</td>
                                 <td class="leads-col-2">Philip Sheffield</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score tag-blue bg-pos-6">32445</td>
                                 <td class="leads-col-1">Philip Sheffield</td>
                                 <td class="leads-col-2">Philip Sheffield</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score tag-red bg-pos-6">87</td>
                                 <td class="leads-col-1">Soham Mehta</td>
                                 <td class="leads-col-2">Philip Sheffield</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score tag-purple bg-pos-6">85</td>
                                 <td class="leads-col-1">Unidentified</td>
                                 <td class="leads-col-2">Philip Sheffield</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score tag-blue bg-pos-6">12</td>
                                 <td class="leads-col-1">Unidentified</td>
                                 <td class="leads-col-2">Philip Sheffield</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row bold">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score tag-off bg-pos-6">+</td>
                                 <td class="leads-col-1">Add another click tag</td>
                                 <td class="leads-col-2">&nbsp;</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                         </tbody>
                     </table>
@@ -148,46 +148,46 @@
                     <table id="tag-and-rank-content" cellpadding="0" cellspacing="0">
                         <tbody>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score tag-purple bg-pos-6">67812</td>
                                 <td class="leads-col-1">Philip Sheffield</td>
                                 <td class="leads-col-2">Philip Sheffield</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score tag-blue bg-pos-6">32445</td>
                                 <td class="leads-col-1">Philip Sheffield</td>
                                 <td class="leads-col-2">Philip Sheffield</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score tag-red bg-pos-6">87</td>
                                 <td class="leads-col-1">Soham Mehta</td>
                                 <td class="leads-col-2">Philip Sheffield</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score tag-purple bg-pos-6">85</td>
                                 <td class="leads-col-1">Unidentified</td>
                                 <td class="leads-col-2">Philip Sheffield</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score tag-blue bg-pos-6">12</td>
                                 <td class="leads-col-1">Unidentified</td>
                                 <td class="leads-col-2">Philip Sheffield</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                             <tr class="row bold">
-                                <td class="col-separator"></td>
+                                
                                 <td class="score tag-off bg-pos-6">+</td>
                                 <td class="leads-col-1">Add another click tag</td>
                                 <td class="leads-col-2">&nbsp;</td>
-                                <td class="col-separator"></td>
+                                
                             </tr>
                         </tbody>
                     </table>

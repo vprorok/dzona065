@@ -13,7 +13,7 @@
     <body>
         <div class="container">
             <div class="span-24">
-                <div class="headerImage"></div>
+                <a href="index.php"><div class="headerImage"></div></a>
                 <div id="searchwrapper">
                     <form action="#">
                         <input type="image" src="css/assets/15x15_search_icon.png" class="searchbox_submit" value="" />
