@@ -108,7 +108,7 @@ form.inline p {margin-bottom:0;}
 
 .input-box-wrapper{background:url(../assets/input_box_left.png) no-repeat; background-position: left top; overflow: hidden; margin: 0px; padding: 0px;}
 .inputbox{ float:left; height:28px; background:url(../assets/input_box_right.png) no-repeat; background-position: right top; overflow: hidden;}
-.input-box-wrapper input[type=text] {line-height: 24px; background-color:transparent;border:none; padding-right:8px; margin:0px 8px;}
+.input-box-wrapper input[type=text] {font-size:14px; line-height:15px; *line-height:26px; background-color:transparent;border:none; padding-right:8px; margin:0px 8px;}
 .input-box-wrapper form { display:inline ;}
 
 .clear {overflow: hidden; width: 100%;}
@@ -227,7 +227,13 @@ ul.dd-button-list li a:hover{
 }
 
 /* grid.css */
-.container {position:relative; width:1000px;margin:0 auto; background: #e6e6e6;}
+.container {
+    position:relative; 
+    width:1000px;
+    margin: 0 auto;
+    margin-bottom:32px;
+    background: #e6e6e6;
+}
 .showgrid {background:url(src/grid.png);}
 .column, .span-1, .span-2, .span-3, .span-4, .span-5, .span-6, .span-7, .span-8, .span-9, .span-10, .span-11, .span-12, .span-13, .span-14, .span-15, .span-16, .span-17, .span-18, .span-19, .span-20, .span-21, .span-22, .span-23, .span-24 {float:left;margin-right:10px;}
 .last {margin-right:0;}
@@ -269,7 +275,7 @@ ul.dd-button-list li a:hover{
     margin-top: 12px;
     margin-left: 126px;
 }
-#searchwrapper input[type=text] {background-color:transparent;border:none;padding-top:7px;}
+#searchwrapper input[type=text] {font-size:14px; line-height:14px; *line-height:30px; background-color:transparent;border:none;}
 #searchwrapper form { display:inline ;}
 
 .searchbox {
@@ -279,7 +285,7 @@ ul.dd-button-list li a:hover{
     top:-2px;
     left:7px;
     width:380px;
-    height:18px;
+    height:30px;/*18*/
 }
 
 .searchbox_submit {
@@ -299,10 +305,11 @@ ul.dd-button-list li a:hover{
 /* FOOTER */
 .footer{
     position:fixed;
+    left:0px;
+    right:0px;
     bottom:0px;
-    width:1000px;
-    height: 51px;
-    background: url(../assets/header_bg.png) repeat-x;
+    height: 30px;
+    border:1px solid #ccc;
     margin:0px;
     display:inline;
 }
@@ -379,9 +386,9 @@ ul.dd-button-list li a:hover{
     position: absolute;
     top:51px;
     left:0px;
+    bottom:0px;
     border-right:1px solid #cccccc;
     margin-right:-1px;
-    bottom:51px;
     width:250px;
     background: #e6e6e6;
     margin:0px;
@@ -439,7 +446,7 @@ ul.dd-button-list li a:hover{
 .arrow{
     float: left;
     width: 9px;
-    height: 6px;
+    height: 9px;
 }
 
 .span-6 ul li span{
@@ -488,7 +495,7 @@ ul.dd-button-list li a:hover{
 .mrgn-lft-8{margin-left: 8px;}
 .mrgn-button-1{margin: 11px 5px 0px 0px;}
 .mrgn-textbox-1{margin: 11px 12px 0px 0px;}
-.mrgn-arrow {margin: 13px 6px 0px 5px;}
+.mrgn-arrow {margin: 11px 6px 0px 5px;}
 
 .lft-0{left: 0px;}
 .lft-20{left: 20px;}
@@ -509,7 +516,9 @@ ul.dd-button-list li a:hover{
 
 .dashboard-icon{background: url(../assets/16x16_dashboard.png) no-repeat; background-position:0px 0px;}
 .leads-icon{ background: url(../assets/16x16_leads.png) no-repeat; background-position:0px 0px;}
-.arrow{background: url(../assets/arrow_down.png) no-repeat;}
+.arrow{background-image: url(../assets/arrow_down.png); background-repeat: no-repeat;}
+.arrow-collapsed{background-image: url(../assets/arrow_right.png); background-repeat: no-repeat;}
+.arrow-expaned{background-image: url(../assets/arrow_down.png); background-repeat: no-repeat;}
 .sort-check{background: url(../assets/16x16_sort_check.png) no-repeat;}
 .leads-email-icon{background: url(../assets/16x16_lead-email.png) no-repeat; background-position:0px 0px;}
 .leads-more-icon{background: url(../assets/16x16_lead-more.png) no-repeat; background-position:0px 0px;}
@@ -540,7 +549,8 @@ ul.dd-button-list li a:hover{
 .span-6 ul li.active div.getting_started-icon{ background-position:0px -16px;}
 .span-6 ul li.active div.tag_and_rank-icon{ background-position:0px -16px;}
 .span-6 ul li.active div.invite_colleagues-icon{ background-position:0px -16px;}
-.span-6 ul li.active div.arrow{ background-position:0px -6px;}
+.span-6 ul li.active div.arrow{ background-position:0px -9px;}
+/*.span-6 ul li.active div.collapsed {background-image: url(../assets/arrow_right.png);}*/
 .span-6 ul li.active div.num_box{ background-position:left bottom; color:#000000;}
 .span-6 ul li.active div.num_box span{ background-position:right bottom; color:#000000; color:#333333; text-shadow: 0 0 0 #fff;}
 

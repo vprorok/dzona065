@@ -263,9 +263,10 @@
                     <div class="horisontal-line">&nbsp;</div>
                 </div>
             </div>
-            <div class="footer">
+            
+        </div>
+        <div class="footer">
                 The footer
             </div>
-        </div>
     </body>
 </html>
